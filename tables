@@ -1,0 +1,34 @@
+
+	
+CREATE TABLE ACCOUNT (
+	
+	UserName varchar(100) not null,
+	UserID varchar(100) not null,
+	UserEmail varchar(180) not null,
+	UserPswd varchar(60) not null
+	UserType varchar(100) not null
+	);
+	
+	
+	
+(A
+qw12)
+
+
+
+CREATE TABLE QuizQuestion (
+	QID VARCHAR(100),
+	Question VARCHAR2(4000), 
+	Option1 VARCHAR2(2000), 
+	Option2 VARCHAR2(2000), 
+	Option3 VARCHAR2(2000), 
+	Option4 VARCHAR2(2000), 
+	Answer VARCHAR2(2000), 
+	QuizName VARCHAR2(1000)
+	 );
+
+   
+ CREATE TABLE  QuizInfo (	
+ 		QuizName VARCHAR2(1000),
+ 		QuizSubject VARCHAR2(1000), 
+		Author VARCHAR2(1000)  );
